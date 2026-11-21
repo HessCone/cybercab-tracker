@@ -63,6 +63,7 @@
     $("share-x").href = "https://x.com/intent/post?text=" + encodeURIComponent(text);
 
     drawChart(hist);
+    daily(hist);
     feed(latest);
   }
 
@@ -100,6 +101,33 @@
         },
       },
     });
+  }
+
+  function daily(hist) {
+    const dayKey = iso => fmtCT(iso, { year: "numeric", month: "2-digit", day: "2-digit" });
+    const rows = [];
+    for (let i = 1; i < hist.length; i++) {
+      const a = hist[i - 1], b = hist[i];
+      const k = dayKey(b.t);
+      const gapDays = (Date.parse(b.t) - Date.parse(a.t)) / 86400e3;
+      let r = rows[rows.length - 1];
+      if (!r || r.k !== k) { r = { k, t: b.t, cc: 0, my: 0, since: gapDays > 1.5 ? a.t : null }; rows.push(r); }
+      r.cc += b.cybercab - a.cybercab; r.my += b.modely - a.modely;
+    }
+    rows.reverse();
+    const s = v => (v > 0 ? "+" : "") + fmt(v);
+    let shown = 10;
+    const render = () => {
+      $("days").innerHTML = rows.slice(0, shown).map(r => {
+        const date = fmtCT(r.t, { weekday: "short", month: "short", day: "numeric" });
+        const note = r.since ? `<span class="tiny muted"> since ${fmtCT(r.since, { month: "short", day: "numeric" })}</span>` : "";
+        const hot = r.cc > 0 ? " hot" : "";
+        return `<li class="${r.cc || r.my ? "" : "zero"}"><span class="day">${date}${note}</span><span class="nums"><b class="c${hot}">${s(r.cc)}</b><b class="y">${s(r.my)}</b></span></li>`;
+      }).join("");
+      $("days-more").style.display = rows.length > shown ? "flex" : "none";
+    };
+    $("days-more").onclick = () => { shown += 20; render(); };
+    render();
   }
 
   function feed(latest) {
