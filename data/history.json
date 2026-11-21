@@ -1,0 +1,160 @@
+[
+ {
+  "t": "2026-09-09T03:36:57Z",
+  "cybercab": 46,
+  "modely": 388,
+  "other": 0,
+  "total": 434,
+  "backfilled": true,
+  "source": "https://x.com/fsd_database/status/2097529665053392982"
+ },
+ {
+  "t": "2026-09-19T00:04:24Z",
+  "cybercab": 58,
+  "modely": 390,
+  "other": 0,
+  "total": 448,
+  "backfilled": true,
+  "source": "https://x.com/fsd_database/status/2101100057311498710"
+ },
+ {
+  "t": "2026-09-22T02:54:07Z",
+  "cybercab": 67,
+  "modely": 409,
+  "other": 0,
+  "total": 476,
+  "backfilled": true,
+  "source": "https://x.com/fsd_database/status/2102229930700665065"
+ },
+ {
+  "t": "2026-09-25T20:47:22Z",
+  "cybercab": 126,
+  "modely": 420,
+  "other": 0,
+  "total": 546,
+  "backfilled": true,
+  "source": "https://x.com/fsd_database/status/2103587184771219721"
+ },
+ {
+  "t": "2026-10-24T21:07:13Z",
+  "cybercab": 431,
+  "modely": 507,
+  "other": 0,
+  "total": 938,
+  "backfilled": true,
+  "source": "https://x.com/fsd_database/status/2114101428914696592"
+ },
+ {
+  "t": "2026-10-28T02:30:43Z",
+  "cybercab": 573,
+  "modely": 507,
+  "other": 0,
+  "total": 1080,
+  "backfilled": true,
+  "source": "https://x.com/fsd_database/status/2115270003826257978"
+ },
+ {
+  "t": "2026-11-09T22:44:48Z",
+  "cybercab": 573,
+  "modely": 709,
+  "other": 0,
+  "total": 1282,
+  "t_checked": "2026-11-09T22:49:49Z"
+ },
+ {
+  "t": "2026-11-10T01:10:09Z",
+  "cybercab": 573,
+  "modely": 709,
+  "other": 0,
+  "total": 1282,
+  "t_checked": "2026-11-10T16:01:54Z"
+ },
+ {
+  "t": "2026-11-11T14:04:10Z",
+  "cybercab": 573,
+  "modely": 729,
+  "other": 0,
+  "total": 1302,
+  "t_checked": "2026-11-11T15:54:34Z"
+ },
+ {
+  "t": "2026-11-12T14:00:23Z",
+  "cybercab": 573,
+  "modely": 730,
+  "other": 0,
+  "total": 1303,
+  "t_checked": "2026-11-12T15:57:22Z"
+ },
+ {
+  "t": "2026-11-13T14:00:44Z",
+  "cybercab": 573,
+  "modely": 730,
+  "other": 0,
+  "total": 1303,
+  "t_checked": "2026-11-13T16:01:03Z"
+ },
+ {
+  "t": "2026-11-14T14:04:03Z",
+  "cybercab": 573,
+  "modely": 730,
+  "other": 0,
+  "total": 1303,
+  "t_checked": "2026-11-14T15:56:27Z"
+ },
+ {
+  "t": "2026-11-15T14:03:39Z",
+  "cybercab": 573,
+  "modely": 733,
+  "other": 0,
+  "total": 1306,
+  "t_checked": "2026-11-15T15:57:50Z"
+ },
+ {
+  "t": "2026-11-16T14:03:48Z",
+  "cybercab": 573,
+  "modely": 733,
+  "other": 0,
+  "total": 1306,
+  "t_checked": "2026-11-16T15:59:15Z"
+ },
+ {
+  "t": "2026-11-17T14:02:06Z",
+  "cybercab": 573,
+  "modely": 733,
+  "other": 0,
+  "total": 1306,
+  "t_checked": "2026-11-17T16:01:03Z"
+ },
+ {
+  "t": "2026-11-18T13:58:01Z",
+  "cybercab": 773,
+  "modely": 734,
+  "other": 0,
+  "total": 1507,
+  "t_checked": "2026-11-18T16:03:03Z"
+ },
+ {
+  "t": "2026-11-19T14:02:24Z",
+  "cybercab": 773,
+  "modely": 734,
+  "other": 0,
+  "total": 1507,
+  "t_checked": "2026-11-19T16:02:06Z"
+ },
+ {
+  "t": "2026-11-20T13:56:57Z",
+  "cybercab": 773,
+  "modely": 734,
+  "other": 0,
+  "total": 1507,
+  "t_checked": "2026-11-20T15:59:47Z"
+ },
+ {
+  "t": "2026-11-21T00:30:42Z",
+  "cybercab": 773,
+  "modely": 734,
+  "other": 0,
+  "total": 1507,
+  "t_checked": "2026-11-21T00:36:48Z"
+ }
+]
