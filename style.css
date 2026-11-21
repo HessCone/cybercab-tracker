@@ -82,3 +82,8 @@ footer b{font-family:Orbitron,sans-serif;letter-spacing:.08em;color:var(--accent
 .days .nums .c{color:#00e5ff}
 .days .nums .c.hot{text-shadow:0 0 12px rgba(0,229,255,.6)}
 .days .nums .y{color:#ff3d71}
+.card-num.y-hot{color:#ff3d71}
+.cards{grid-template-columns:repeat(6,1fr)}
+.cards .card{grid-column:span 2}
+.cards .card:nth-child(4),.cards .card:nth-child(5){grid-column:span 3}
+@media (max-width:980px){.cards{grid-template-columns:repeat(2,1fr)}.cards .card,.cards .card:nth-child(4){grid-column:span 1}.cards .card:nth-child(5){grid-column:span 2}}

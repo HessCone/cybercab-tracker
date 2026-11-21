@@ -19,11 +19,11 @@
   }
 
   // net change vs the newest history point at least `hours` old
-  function deltaSince(hist, now, cur, hours) {
+  function deltaSince(hist, now, cur, hours, key = "cybercab") {
     const cutoff = now - hours * 3600e3;
     const base = [...hist].reverse().find(h => Date.parse(h.t) <= cutoff);
     if (!base) return null;
-    return { d: cur - base.cybercab, base };
+    return { d: cur - base[key], base };
   }
 
   async function load() {
@@ -49,6 +49,9 @@
     $("add-7").textContent = sign(d7);
     const d30 = deltaSince(hist, now, c.cybercab, 24 * 30);
     $("add-30").textContent = sign(d30);
+    $("my-24").textContent = sign(deltaSince(hist, now, c.modely, 24, "modely"));
+    $("my-7").textContent = sign(deltaSince(hist, now, c.modely, 24 * 7, "modely"));
+    $("my-30").textContent = sign(deltaSince(hist, now, c.modely, 24 * 30, "modely"));
     const oldest = d7 && d7.base && (now - Date.parse(d7.base.t) > 8 * 86400e3) ? d7.base : null;
     if (oldest) $("add-note").textContent = "Short windows compare with " + fmtCT(oldest.t, { month: "short", day: "numeric" }) + ", the closest earlier data point.";
 
