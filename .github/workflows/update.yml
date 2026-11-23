@@ -3,6 +3,7 @@ name: Update Cybercab count
 on:
   schedule:
     - cron: "7 * * * *"   # every hour at :07
+    - cron: "1 6 * * *"   # 12:01 AM Central (CST) daily full refresh
   workflow_dispatch: {}
 
 permissions:
