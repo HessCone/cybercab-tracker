@@ -100,11 +100,14 @@ def main():
     save("latest.json", latest)
 
     hist = load("history.json", [])
+    from datetime import datetime as _dt
+    from zoneinfo import ZoneInfo as _Z
+    ct_day = lambda iso: _dt.fromisoformat(iso.replace("Z", "+00:00")).astimezone(_Z("America/Chicago")).date()
     last = next((h for h in reversed(hist) if not h.get("backfilled")), None)
     point = {"t": now, **counts}
     # only append when counts change or >= 1 point per day, to keep file small
     if (last is None or any(last.get(k) != counts[k] for k in counts)
-            or last["t"][:10] != now[:10]):
+            or ct_day(last["t"]) != ct_day(now)):
         hist.append(point)
     else:
         last["t_checked"] = now
