@@ -61,8 +61,8 @@
     else { chip.textContent = "No new Cybercabs in the last 24 h"; chip.classList.add("flat"); }
 
     // share on X
-    const url = location.protocol.startsWith("http") && !/localhost|127\.0\.0\.1/.test(location.host) ? location.href.split("#")[0] : "";
-    const text = `Cybercab count in Texas: ${fmt(c.cybercab)} 🚕 (${fmt(c.total)} robotaxis total)` + (url ? ` via ${url}` : "");
+    const url = location.protocol.startsWith("http") && !/localhost|127\.0\.0\.1/.test(location.host) ? location.origin + location.pathname : "";
+    const text = `Cybercab count in Texas: ${fmt(c.cybercab)} 🚕 (${fmt(c.total)} robotaxis total)` + (url ? ` via ${url}` : "") + " by @HessCone";
     $("share-x").href = "https://x.com/intent/post?text=" + encodeURIComponent(text);
 
     drawChart(hist);
