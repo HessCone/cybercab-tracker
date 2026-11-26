@@ -1,15 +1,254 @@
 {
- "checked_at": "2026-11-26T18:24:55Z",
+ "checked_at": "2026-11-26T19:31:13Z",
  "source": "https://txmccs.txdmv.gov/api/TruckStop/companies/81edcff1-8a6e-4ed0-be1f-60668515e223/automated-motor-vehicles",
- "api_total": 1556,
+ "api_total": 1593,
  "counts": {
-  "cybercab": 822,
+  "cybercab": 856,
   "modely": 734,
   "other": 0,
-  "total": 1556
+  "total": 1590
  },
- "added_this_run": [],
+ "added_this_run": [
+  "5YJAJEEU4VA004908",
+  "5YJAJEEU4VA004875",
+  "5YJAJEEU3VA005080",
+  "5YJAJEEU3VA005077",
+  "5YJAJEEU3VA005015",
+  "5YJAJEEU3VA004995",
+  "5YJAJEEU3VA004978",
+  "5YJAJEEU2VA005068",
+  "5YJAJEEU2VA005054",
+  "5YJAJEEU2VA005040",
+  "5YJAJEEU2VA005023",
+  "5YJAJEEU2VA005006",
+  "5YJAJEEU2VA004972",
+  "5YJAJEEU2VA004955",
+  "5YJAJEEU2VA004941",
+  "5YJAJEEU2VA004938",
+  "5YJAJEEU2VA004924",
+  "5YJAJEEU2VA004910",
+  "5YJAJEEU2VA004891",
+  "5YJAJEEU2VA004888",
+  "5YJAJEEU2VA004874",
+  "5YJAJEEU1VA005028",
+  "5YJAJEEU1VA004994",
+  "5YJAJEEU1VA004977",
+  "5YJAJEEU1VA004929",
+  "5YJAJEEU1VA004770",
+  "5YJAJEEU0VA005067",
+  "5YJAJEEU0VA005053",
+  "5YJAJEEU0VA004971",
+  "5YJAJEEU0VA004954",
+  "5YJAJEEU0VA004940",
+  "5YJAJEEU0VA004923",
+  "5YJAJEEU0VA004890",
+  "5YJAJEEU0VA004873"
+ ],
  "vehicles": [
+  {
+   "vin": "5YJAJEEU4VA004908",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU4VA004875",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU3VA005080",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU3VA005077",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU3VA005015",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU3VA004995",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU3VA004978",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA005068",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA005054",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA005040",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA005023",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA005006",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004972",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004955",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004941",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004938",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004924",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004910",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004891",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004888",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU2VA004874",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU1VA005028",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU1VA004994",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU1VA004977",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU1VA004929",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU1VA004770",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA005067",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA005053",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA004971",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA004954",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA004940",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA004923",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA004890",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
+  {
+   "vin": "5YJAJEEU0VA004873",
+   "type": "cybercab",
+   "first_seen": "2026-11-26T19:31:13Z",
+   "initial": false
+  },
   {
    "vin": "5YJAJEEUXVA004749",
    "type": "cybercab",
